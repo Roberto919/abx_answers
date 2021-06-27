@@ -31,16 +31,16 @@ Forecast demand of a product for a given week, at a particular store.
     - Decided to drop the 4,862 duplicated entries assuming there is no loss of relevant information 
 
 ## Data features
-Semana — Week number (From Thursday to Wednesday)
-Agencia_ID — Sales Depot ID
-Canal_ID — Sales Channel ID
-Ruta_SAK — Route ID (Several routes = Sales Depot)
-Cliente_ID — Client ID
-NombreCliente — Client name
-Producto_ID — Product ID
-NombreProducto — Product Name
-Venta_uni_hoy — Sales unit this week (integer)
-Venta_hoy — Sales this week (unit: pesos)
-Dev_uni_proxima — Returns unit next week (integer)
-Dev_proxima — Returns next week (unit: pesos)
-Demanda_uni_equil — Adjusted Demand (integer) (This is the target you will predict)
+- Semana — Week number (From Thursday to Wednesday)
+- Agencia_ID — Sales Depot ID
+- Canal_ID — Sales Channel ID
+- Ruta_SAK — Route ID (Several routes = Sales Depot)
+- Cliente_ID — Client ID
+- NombreCliente — Client name
+- Producto_ID — Product ID
+- NombreProducto — Product Name
+- Venta_uni_hoy — Sales unit this week (integer)
+- Venta_hoy — Sales this week (unit: pesos)
+- Dev_uni_proxima — Returns unit next week (integer)
+- Dev_proxima — Returns next week (unit: pesos)
+- Demanda_uni_equil — Adjusted Demand (integer) (This is the target you will predict)
