@@ -19,6 +19,11 @@ Forecast demand of a product for a given week, at a particular store.
 6. Flowchart of algorithm steps
 
 ## Files used
-cliente_tabla.csv (ID feature: Cliente_ID)
-producto_tabla.csv (ID feature: Producto_ID)
-town_state.csv (ID feature: Agencia_ID)
+- cliente_tabla.csv (ID feature: Cliente_ID)
+- producto_tabla.csv (ID feature: Producto_ID)
+- town_state.csv (ID feature: Agencia_ID)
+
+## EDA Observations
+- cliente_tabla.csv
+    - There are 4,862 Client_ID entries that appear 2 times
+    - Decided to drop the 4,862 duplicated entries assuming there is no loss of relevant information 
