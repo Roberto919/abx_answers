@@ -8,3 +8,8 @@
 
 ## Jupyter
 .ipynb_checkpoints/
+
+
+## Data
+df_\[candidate\]_small.csv
+df_\[test\]_small.csv
