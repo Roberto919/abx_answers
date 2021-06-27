@@ -16,7 +16,15 @@ Forecast demand of a product for a given week, at a particular store.
     ![Screen Shot 2021-06-27 at 17 03 41](https://user-images.githubusercontent.com/48889991/123560725-a255c500-d769-11eb-947e-2b7cf401f98b.png)
 3. Metrics to support algorithm
 4. Sample of clients that represent agency
-5. Week 9 prediction of top 3 selled productsin client sample
+    - The agency for the analysis was selected based on the total currency demand value
+        - The selected agency is = {
+                                        "Agencia_ID": 1129
+                                        "Town": 2011 AG. SAN ANTONIO
+                                        "State": MÉXICO, D.F.
+                                        "Demand value": $56.7 million pesos
+                                        "Participation among all agencies": 8.83%
+                                   }
+5. Week 9 prediction of top 3 selled products in client sample
 6. Flowchart of algorithm steps
     1. Find top 3 products 
 
@@ -24,11 +32,13 @@ Forecast demand of a product for a given week, at a particular store.
 - cliente_tabla.csv (ID feature: Cliente_ID)
 - producto_tabla.csv (ID feature: Producto_ID)
 - town_state.csv (ID feature: Agencia_ID)
+- df_[candidate]_small.csv (train data)
+- df_[test]_small.csv (test data)
 
 ## EDA Observations
-- cliente_tabla.csv
+- `cliente_tabla.csv`
     - There are 4,862 Client_ID entries that appear 2 times
-    - Decided to drop the 4,862 duplicated entries assuming there is no loss of relevant information 
+    - Decided to drop the 4,862 duplicated entries assuming there is no loss of relevant information
 
 ## Data features
 - Semana — Week number (From Thursday to Wednesday)
