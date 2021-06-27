@@ -18,11 +18,11 @@ Forecast demand of a product for a given week, at a particular store.
 4. Sample of clients that represent agency
     - The agency for the analysis was selected based on the total currency demand value
         - The selected agency is = {
-                                        "Agencia_ID": 1129
-                                        "Town": 2011 AG. SAN ANTONIO
-                                        "State": MÉXICO, D.F.
-                                        "Demand value": $56.7 million pesos
-                                        "Participation among all agencies": 8.83%
+                                        "Agencia_ID": 1129,
+                                        "Town": 2011 AG. SAN ANTONIO,
+                                        "State": MÉXICO, D.F.,
+                                        "Demand value": $56.7 million pesos,
+                                        "Participation among all agencies": 8.83%,
                                    }
 5. Week 9 prediction of top 3 selled products in client sample
 6. Flowchart of algorithm steps
