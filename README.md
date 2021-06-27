@@ -13,10 +13,11 @@ Forecast demand of a product for a given week, at a particular store.
 ## Answers
 1. Algorithm used
 2. Time-series of determined product-client-agency combination
-3. Metrics to support algorithm
-4. Sample of clients that represent agency
-5. Week 9 prediction of top 3 selled productsin client sample
-6. Flowchart of algorithm steps
+    ![Screen Shot 2021-06-27 at 17 03 41](https://user-images.githubusercontent.com/48889991/123560725-a255c500-d769-11eb-947e-2b7cf401f98b.png)
+4. Metrics to support algorithm
+5. Sample of clients that represent agency
+6. Week 9 prediction of top 3 selled productsin client sample
+7. Flowchart of algorithm steps
 
 ## Files used
 - cliente_tabla.csv (ID feature: Cliente_ID)
