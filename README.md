@@ -11,6 +11,7 @@ Forecast demand of a product for a given week, at a particular store.
 - Demand: sales (current week) - returns (next week)
 
 ## Answers
+**The procedure behind every answer can be found in the notebook `notebooks/abxrp_nb.ipynb`**
 1. Algorithm used
     - Random forest
 2. Time-series of determined product-client-agency combination
