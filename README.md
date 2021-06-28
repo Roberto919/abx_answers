@@ -27,7 +27,11 @@ Forecast demand of a product for a given week, at a particular store.
     - A sample of clients related to the selected agency ("Agencia_ID": 1129) was selected based on the demand value (in pesos)
         - The sample consists of the top 55 agency clients (out of a total of 105 clients)
         - These represent the 80% of the agency's demand
-5. Week 9 prediction of top 3 selled products in client sample
+5. Week 9 prediction of top 3 sold products in client sample
+    - The top 3 products were selected based on the demand value (in pesos):
+        - Top 1 product: {"Name": "Pan Integral 680g TNB BIM 34786", "Producto_ID": 34786, "Demand value (in selected agency and client sample)": 2.55 million pesos, "Participation (in selected agency and client sample)": 5.6%}
+        - Top 2 product: {"Name": "Wonder 100pct con Ajonjoli 567g MTA WON 35145", "Producto_ID": 35145, "Demand value (in selected agency and client sample)": 1.90 million pesos, "Participation (in selected agency and client sample)": 4.2%}
+        - Top 3 product: {"Name": "Tortillinas 22p 570g MTA TR 48996", "Producto_ID": 48996, "Demand value (in selected agency and client sample)": 1.90 million pesos, "Participation (in selected agency and client sample)": 4.1%}
 6. Flowchart of algorithm steps
     1. Find top 3 products 
 
