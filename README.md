@@ -33,7 +33,6 @@ Forecast demand of a product for a given week, at a particular store.
         - Top 2 product: {"Name": "Wonder 100pct con Ajonjoli 567g MTA WON 35145", "Producto_ID": 35145, "Demand value (in selected agency and client sample)": 1.90 million pesos, "Participation (in selected agency and client sample)": 4.2%}
         - Top 3 product: {"Name": "Tortillinas 22p 570g MTA TR 48996", "Producto_ID": 48996, "Demand value (in selected agency and client sample)": 1.90 million pesos, "Participation (in selected agency and client sample)": 4.1%}
 6. Flowchart of algorithm steps
-    1. Find top 3 products 
 
 ## Files used
 - cliente_tabla.csv (ID feature: Cliente_ID)
