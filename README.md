@@ -36,6 +36,7 @@ Forecast demand of a product for a given week, at a particular store.
         - Top 1 product: {"Name": "Pan Integral 680g TNB BIM 34786", "Producto_ID": 34786, "Demand value (in selected agency and client sample)": 2.55 million pesos, "Participation (in selected agency and client sample)": 5.6%}
         - Top 2 product: {"Name": "Wonder 100pct con Ajonjoli 567g MTA WON 35145", "Producto_ID": 35145, "Demand value (in selected agency and client sample)": 1.90 million pesos, "Participation (in selected agency and client sample)": 4.2%}
         - Top 3 product: {"Name": "Tortillinas 22p 570g MTA TR 48996", "Producto_ID": 48996, "Demand value (in selected agency and client sample)": 1.90 million pesos, "Participation (in selected agency and client sample)": 4.1%}
+    - The predictions can be found in the `results` directory
 6. Flowchart of algorithm steps
     1. Cleaning and enhancing initial data
     2. Identify the most important agency in terms of sales
