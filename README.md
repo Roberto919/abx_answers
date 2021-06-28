@@ -24,6 +24,9 @@ Forecast demand of a product for a given week, at a particular store.
                                         "Demand value": $56.7 million pesos,
                                         "Participation among all agencies": 8.83%,
                                    }
+    - A sample of clients related to the selected agency ("Agencia_ID": 1129) was selected based on the demand value (in pesos)
+        - The sample consists of the top 55 agency clients (out of a total of 105 clients)
+        - These represent the 80% of the agency's demand
 5. Week 9 prediction of top 3 selled products in client sample
 6. Flowchart of algorithm steps
     1. Find top 3 products 
