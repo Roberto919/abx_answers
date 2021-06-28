@@ -12,9 +12,13 @@ Forecast demand of a product for a given week, at a particular store.
 
 ## Answers
 1. Algorithm used
+    - Random forest
 2. Time-series of determined product-client-agency combination
     ![Screen Shot 2021-06-27 at 17 03 41](https://user-images.githubusercontent.com/48889991/123560725-a255c500-d769-11eb-947e-2b7cf401f98b.png)
 3. Metrics to support algorithm
+    - The model was selected due to its versatility and effectiveness
+    - I normally support the selection of an algorithm using a particular scoring parameter (e.g. accuracy) and comparing its value across different models (e.g. linear regression, decision tree, logistic regression) by using a magic loop.
+    - Due to the time constraints, I did not set up such magic-loop, therefore, no comparison is available.  
 4. Sample of clients that represent agency
     - The agency for the analysis was selected based on the total currency demand value
         - The selected agency is = {
@@ -33,6 +37,16 @@ Forecast demand of a product for a given week, at a particular store.
         - Top 2 product: {"Name": "Wonder 100pct con Ajonjoli 567g MTA WON 35145", "Producto_ID": 35145, "Demand value (in selected agency and client sample)": 1.90 million pesos, "Participation (in selected agency and client sample)": 4.2%}
         - Top 3 product: {"Name": "Tortillinas 22p 570g MTA TR 48996", "Producto_ID": 48996, "Demand value (in selected agency and client sample)": 1.90 million pesos, "Participation (in selected agency and client sample)": 4.1%}
 6. Flowchart of algorithm steps
+    1. Cleaning and enhancing initial data
+    2. Identify the most important agency in terms of sales
+    3. Identify sample of clients that represent 80% of the sales for the selected agency
+    4. Find the top 3 most sold products in the selected agency and client sample
+    5. Eliminate irrelevant features in the training data and filter to focus only on identified top products
+    6. Prepare training data based on each features characteristics (e.g. categorical -> OHE; numerical -> standard scaler)
+    7. Select a model for the regression prediction and a set of parameters for the grid search
+    8. Train model with every combination of parameters and using cross validation
+    9. Select model with the best accuracy score
+    10. Use selected model to make prediction over the test data
 
 ## Files used
 - cliente_tabla.csv (ID feature: Cliente_ID)
